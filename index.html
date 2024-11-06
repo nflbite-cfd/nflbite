@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <meta charset='utf-8'/>
+    <title>NFLbite - Your #1 Source for Free NFL Streams</title>
+    <meta content='NFLbite provides the best free, high-quality live NFL streams for your viewing pleasure! Catch all the action from your favorite teams on any device, no signup needed.  Get started watching free NFL games now!' name='description'/>
+    <meta content='NFLbite, NFL streams, free NFL streaming, live NFL games, free live NFL streams, NFLbite alternatives, watch NFL online, NFL streaming sites, NFL live streams, Reddit NFL streams, NFL game streaming, NFL streams free, NFL live streams free, free nflbite,  reddit nfl streams free, nfl streams reddit, nfl streams reddit free' name='keywords'/> 
+
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+   
+    <link href='https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap' rel='stylesheet'/>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css' rel='stylesheet'/>
+    <b:skin><![CDATA[
+  
+    
+  
+]]></b:skin>
+   <style>
+      html {
+        height: 100%
+      }
+
+      body {
+        position: relative;
+        height: 100%;
+        background: linear-gradient(#242625 25%, #303133 50%, #303133 50%, #242625 100%);
+        color: #a4a8a4;
+        font-size: 14px;
+        font-family: &quot;Inter&quot;, sans-serif
+      }
+
+      a {
+        transition: all .3s;
+        color: #b1b4b1;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #cbcdcb
+      }
+
+      strong {
+        font-weight: 500;
+        color: #00acc1
+      }
+
+      .container {
+        max-width: 650px;
+        margin: 0 auto;
+        width: 100%
+      }
+
+      .content {
+        position: absolute;
+        width: 100%
+      }
+
+      .content .header {
+        padding: 3.5rem 0 .3rem;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        margin: 0 2rem
+      }
+
+      .content .header p {
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #e5e5e5
+      }
+
+      .content .main {
+        position: relative;
+        margin: 0 1rem;
+        z-index: 1;
+        background: #1e201f;
+        border-radius: .7rem;
+        padding: 1.5rem;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, .1), inset 0 3px 3px rgba(0, 0, 0, .5);
+        margin-bottom: 1rem
+      }
+
+      .content .main ul.m-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin: 1rem 0
+      }
+
+      .content .main ul.m-list li {
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        background: #242625;
+        padding: .5rem .8rem;
+        margin: .3rem 0;
+        border-radius: .4rem;
+        border: 1px solid #3e403f;
+        color: #777b77;
+        text-decoration: none;
+        transition: border-color .3s, background .3s
+      }
+
+      .content .main ul.m-list li span:first-child {
+        font-weight: 600;
+        color: #e5e5e5
+      }
+
+      .faq img {
+        margin: 0 auto;
+        display: block;
+      }
+
+      .content .main ul.m-list li span:last-child {
+        display: inline-block;
+        align-items: center;
+        transition: color .3s
+      }
+
+      .content .main ul.m-list li span:last-child:before {
+        content: &quot; &quot;;
+        display: inline-block;
+        background: #00acc1;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        vertical-align: middle;
+        margin-right: .3rem
+      }
+
+      .content .main ul.m-list li:hover {
+        background: #003a42;
+        border-color: #00acc1
+      }
+
+      .content .main ul.m-list li:hover span:last-child {
+        color: #e5e5e5
+      }
+
+      .content .main .notice {
+        background: #131514;
+        padding: .9rem 1rem .4rem;
+        border-radius: .5rem;
+        display: flex
+      }
+
+      .content .main .notice .start {
+        display: flex;
+        margin-right: .5rem
+      }
+
+      .content .main .notice .start i {
+        font-size: 1.1rem;
+        color: #e5e5e5
+      }
+
+      .content .main .notice .stop {
+        margin-top: .1rem;
+        font-size: .8rem
+      }
+
+      .content .main .notice .stop .heading {
+        font-weight: 400;
+        color: #e5e5e5;
+        font-size: .9rem
+      }
+
+      .content .main .notice .stop .twitter {
+        background: #00acc1;
+        border-radius: .2rem;
+        padding: .2rem .5rem;
+        display: inline-block;
+        color: #131514;
+        text-decoration: none;
+        font-weight: 500;
+        margin-top: .4rem;
+        font-size: .8rem
+      }
+
+      .content .main .notice .stop .twitter:hover {
+        background: #00d9f4
+      }
+
+      .content .main .faq {
+        margin-top: 1.8rem
+      }
+
+      .content .main .faq h3 {
+        font-size: .9rem;
+        font-weight: 500;
+        color: #e5e5e5
+      }
+
+      .content .footer {
+        text-align: center;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 2rem
+      }
+
+      .wrap {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        margin: 0 auto;
+        perspective: 360px;
+        perspective-origin: 50% 50%
+      }
+
+      .top-plane,
+      .bottom-plane {
+        width: 200%;
+        height: 130%;
+        position: absolute;
+        bottom: -30%;
+        left: -50%;
+        background-image: -webkit-linear-gradient(#303133 2px, transparent 2px), -webkit-linear-gradient(left, #303133 2px, transparent 2px);
+        background-size: 100px 100px, 100px 100px;
+        background-position: -1px -1px, -1px -1px;
+        transform: rotateX(85deg);
+        animation: planeMoveTop 2s infinite linear;
+        z-index: 0
+      }
+
+      .bottom-plane {
+        transform: rotateX(-85deg);
+        top: -30%;
+        animation: planeMoveBot 2s infinite linear
+      }
+
+      @keyframes planeMoveTop {
+        from {
+          background-position: 0px -100px, 0px 0px
+        }
+
+        to {
+          background-position: 0px 0px, 100px 0px
+        }
+      }
+
+      @keyframes planeMoveBot {
+        from {
+          background-position: 0px 0px, 0px 0px
+        }
+
+        to {
+          background-position: 0px -100px, 100px 0px
+        }
+      }
+
+      @media(max-height: 350px) {
+        .wrap {
+          perspective: 210px
+        }
+      }
+
+      @media only screen and (max-width: 700px) {
+        .faq img {
+          width: 100%;
+          height: auto;
+        }
+      }
+	  
+	  #trending {
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline-block;
+    animation: flash 2s infinite;
+}
+
+@keyframes flash {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes combined {
+    0% {
+        opacity: 1;
+        transform: scale(1) rotate(0deg);
+        color: red;
+    }
+    50% {
+        opacity: 0.5;
+        transform: scale(1.5) rotate(180deg);
+        color: blue;
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(360deg);
+        color: red;
+    }
+}
+
+.r-r, #sidepar-wid {
+        transform: none !important;
+        float: none;
+        width: 100% !important;
+        margin: 0;
+        display: block;
+    }
+
+span.live {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f00!important;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: .7rem !important;
+    font-family: 'Orbitron'!important;
+}
+
+  #matchcard{
+    font-family: "Titillium Web";
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #fff;
+    align-items: center;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2px;
+    overflow: hidden;
+    padding: 3px;
+    color:black;
+    cursor:pointer;
+    width: 100%;
+}
+
+#leaguenames{
+  font-weight:bold;
+  font-family: "Orbitron";
+}
+
+span.live-icon {
+    margin-left: 7px;
+    display: block;
+    font-size: 1.3em;
+    width: 8px;
+    height: 8px;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: -1px;
+    border: none;
+    border-radius: 50%;
+    background: rgb(255, 0, 0);
+    cursor: pointer;
+    box-shadow: 0 0 0 0 rgba(255, 0, 0, .5);
+    -webkit-animation: pulse 1.5s infinite;
+}
+    /* Basic styling for search box and container */
+    #searchBox{
+            margin-bottom: 10px;
+        
+            font-weight: bold;
+        }
+   
+        .item {
+            margin-bottom: 5px;
+        }
+        .hidden { display: none; }
+        .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row!important;
+    align-content: center!important;
+    justify-content: center!important;
+    align-items: center!important;
+    width: 100%!important;
+}
+#afterleaguename::after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 20px;
+    margin: 0 10px;
+    background: #00D2BE;
+}
+
+#timeofthematch{
+  background-color: #ededed;
+  border-radius: 20px;
+  align-content: center;
+  text-align: center;
+  margin-right: 5px;
+  padding:4px;
+}
+
+input {
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  background-color: white;
+  border: 2px solid black;
+  color: #111;
+  font-size: 15px;
+  box-shadow: 3px 1px 0px 2px, 0px -1px 0px 2px rgba(0, 0, 0, 0.62);
+  height: 58px;
+  transform: skew(-3deg, 1deg);
+  font-family: "Knewave", cursive;
+  letter-spacing: 2px;
+  text-transform: uppercase;}
+  .champ{display: none;}
+
+#endedresult{
+color:red;
+font-weight: bold;
+}     
+
+      
+.HeaderTOP {
+  display:none!important;    
+}   
+#clicksearch, .open.nav1{
+ display:none!important;         
+      }
+.HeaderBg{
+background: linear-gradient(298deg, #e10601 75%, #930f0d 42%) !important;
+      }
+      
+div#afterleaguename.col-1 {
+    padding: 4px;
+} 
+ 
+.HBOTC {
+    position: relative;
+    transition: all .3s linear;
+    width: 100%;
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+    display: flex!important;
+    align-items: center!important;
+    height: 62px;
+    flex-direction: row!important;
+    flex-wrap: nowrap!important;
+    align-content: center!important;
+    justify-content: center!important;
+}   
+
+.HeaderBOT #menu ul a {
+    font: var(--HLinkfont);
+    font-size: 1.3rem;
+    color: var(--HColor);
+    line-height: 2px;
+}
+ .HeaderBOT #menu ul li {
+    flex-shrink: 0;
+    margin-right: 15px;
+    position: relative;
+    transition: all .3s linear;
+    margin-bottom: 30px;
+}
+.HeaderBOT #menu ul li a:hover {
+    color: #e2e2e2 !important;
+    text-decoration: none !important;
+    background-color: #930f0d !important;
+    padding: 44px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Titillium Web;
+}
+      
+    #ahmed .half-width-widget .widget {
+    width: 50%;
+    float: left; /* To position them side by side */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+#ahmed:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    
+.h3, h3 {
+    font-size: 1rem !important;
+}
+    
+.main-amm, .site .widget {
+      margin: 0px 0 5px!important;
+}    
+    
+.post-home{
+      width: 100%!important;
+}
+    
+a.PLHolder.thumb {
+    display: none;
+}   
+    
+    /* General styling for the fixture card */
+    .fixture-card {
+      background-color: #121212; /* Light gray for card background */
+      border: 1px solid #dee2e6; /* Light border around the card */
+      border-radius: 10px; /* Rounded corners */
+      padding: 20px; /* Padding inside the card */
+      margin-bottom: 30px; /* Margin between cards */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light box shadow */
+      cursor: pointer; /* Indicate clickable card */
+      transition: all 0.3s ease; /* Smooth transition for hover effect */
+      color: white !important;
+    }
+
+    .fixture-card:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+      transform: translateY(-5px); /* Slight lift effect */
+    }
+
+    .team-logo {
+      width: 50px; /* Adjust the logo size */
+      height: 50px;
+      object-fit: contain; /* Keep logo aspect ratio */
+    
+    }
+
+    .team-name {
+      font-size: 15px!important; /* Team name font size */
+      font-weight: bold; /* Bold team name */
+      color: white; /* Dark color for team name */
+      text-align: center; /* Center the team name */
+      margin: 5px 0!important; /* Space around team name */
+    }
+
+   
+
+    h1 {
+      text-align: center; /* Center the "VS" */
+      font-size: 24px; /* Size of "VS" */
+      font-weight: bold; /* Bold font weight for "VS" */
+      color: #495057; /* Dark color for "VS" text */
+      margin: 0; /* Remove margin around "VS" */
+    }
+
+    /* Horizontal layout */
+    .fixture-card .row {
+      display: flex; /* Use flexbox to align children */
+      justify-content: space-around; /* Distribute evenly horizontally */
+      align-items: center; /* Vertically center the children */
+    }
+
+    .fixture-card .col {
+      text-align: center; /* Center align text within columns */
+      flex: 1; /* Equal width columns */
+    }
+
+    .fixture-card .col h3 {
+      margin: 0; /* Remove default margin for team names */
+    }
+
+    .container {
+      margin-top: 40px; /* Top margin for the page content */
+    }
+
+  .champ{
+      text-align: center;
+    transition: all 0.2s linear;
+    float: left;
+    color: var(--whiteColor);
+    background: var(--minColor);
+    position: relative;
+    font-size: 13px;
+    padding: 0 15px;
+    border-radius: 2px;
+    height: 28px;
+    line-height: 28px;
+      
+      }
+    </style>
+    <link href='https://iili.io/2nPs2ZN.webp' rel='shortcut icon' type='image/x-icon'/>
+    <meta content='https://iili.io/2nPs2ZN.webp' property='og:image'/>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".bntl").forEach(n => {
+          n.addEventListener("click", () => {
+            window.open("https://www.nflbite.fun", "_blank")
+          })
+        })
+      });
+    </script>
+	 <meta content='index, follow' name='robots'/>
+	            <script type='application/ld+json'>
+    {
+      "@context": "https://schema.org",
+      "@type": "EntertainmentBusiness",
+      "name": "NFLbite",
+      "alternateName": "NFL Streams | Reddit NFL Streams",
+     "@id": "https://www.nflbite.cfd",
+      "logo": "https://iili.io/2C3QZmv.png",
+      "image": "https://iili.io/2C3QZmv.png",
+      "description": "Welcome to NFLbite (NFLbite 2.0) · We will be offering free live streams for NFL streams or football streams, NFLbite is your #1 live streams",
+      "url": "https://www.nflbite.cfd",
+      "telephone": "+19862356985",
+      "priceRange": "1$-500000$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1996 N Nellis Blvd",
+        "addressLocality": "Las Vegas",
+        "addressRegion": "NV",
+        "postalCode": "89115",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "sameAs": [
+        "https://twitter.com/streameast__",
+        "https://www.pinterest.com/nflbitereddit/",
+        "https://nflbitelive.tumblr.com/",
+        "https://sites.google.com/view/nflbite-io",
+        "https://nflbite-fun.blogspot.com/",
+      ]
+    }
+
+
+        </script>
+  </head>
+  <body>
+    <div class='content'>
+      <div class='container'>
+        <div class='header'>
+          <img alt='logo' height='84' src='https://iili.io/2dcbrWG.png' width='300'/>
+          <h1>NFLbite - Your #1 Source for Free NFL Streams</h1>
+          <p>Enjoy high-quality live NFL streams on any device.  No subscription, no hassle - start watching your favorite NFL games now! </p> 
+        </div>
+        <div class='main'>
+          <h2>The Ultimate Guide to Free NFLbite Streams</h2>
+          <p>NFLbite is your one-stop shop for all the NFL action! No matter if you're looking for regular season games, playoffs, or even the Super Bowl, we've got your free live NFL streams covered!·</p>
+          <span>Please press Ctrl + D to bookmark this site and keep updated on NFLBite-official domains.</span>
+
+          <ul class='m-list'>
+            <li class='bntl'>
+              <span><a href='https://www.nflbite.fun' target='_blank'>NFLbite</a></span>
+              <span>live</span>
+            </li>
+            <li class='bntl'>
+              <span><a href='https://www.nflbite.fun' target='_blank'>NFLbite TV</a></span>
+              <span>live</span>
+            </li>
+            <li class='bntl'>
+              <span><a href='https://www.nflbite.fun' target='_blank'>NFLbite STREAMS</a></span>
+              <span>live</span>
+            </li>
+            <li class='bntl'>
+              <span><a href='https://www.nflbite.fun' target='_blank'>NFLbite live</a></span>
+              <span>live</span>
+            </li>
+          </ul>
+          
+            <!-- streaming -->
+            <h1>NFLBite</h1>
+                <div id='nfl'></div>
+                
+            <!-- end of streaming -->
+          <div class='faq'>
+            <h2>Why Choose NFLbite for Free NFL Streams?</h2>
+            <p><strong>NFLbite</strong> offers a streamlined, convenient, and reliable way to watch NFL games online!  Here's what you get when you use us: </p>
+            <ul>
+              <li><strong>Free NFL Streaming:</strong> We make watching the NFL accessible and affordable - no subscriptions required.</li>
+              <li><strong>High-Quality Streaming:</strong> Enjoy a clear, uninterrupted viewing experience on any device.  No buffering here!  </li>
+              <li><strong>Wide Coverage:</strong> Don't miss out on the NFL season! Watch every exciting game live, from regular season matches to the big Super Bowl.</li> 
+            </ul>
+            <p><strong>NFLbite</strong> has gained significant popularity as a free, easy-to-use sports streaming service. It provides access to a wide range of sports events, from football and basketball to combat sports like UFC and boxing, making it a go-to platform for sports enthusiasts. Unlike paid subscription services like ESPN+ and FuboTV, <strong>NFLbite</strong> offers high-quality streams without the need for any subscription fees, making it an appealing choice for fans looking to cut costs.</p>
+
+          <p>Our goal is to make finding the best NFL streams a simple and stress-free experience. We strive to provide access to reliable, free NFL streams, so you can sit back, relax, and enjoy every touchdown, fumble, and heart-stopping moment! </p> 
+          <p> Bookmark <strong>NFLbite</strong> - your go-to spot for top-quality NFL action!</p>
+         
+            <h2>How NFLbite Works</h2>
+            <p>NFLbite stream links are provided from reputable sources around the web. We scour the internet for the best options, updating them regularly. When you click a link, it redirects to an external site for the live stream.· </p> 
+
+            <h2>Finding Free NFLbite Streams</h2>
+            <p>Ready to start watching? Here's a simple guide to using NFLbite to catch all the NFL action:
+            </p>
+            <ol>
+                <li><strong>Bookmark NFLbite:</strong> Ensure you always have access to the latest stream links by bookmarking our site.</li>
+                <li><strong>Browse Available Streams:</strong> Our website offers a user-friendly layout, making it easy to discover available NFL game streams.</li> 
+                <li><strong>Search For Your Team or Game:</strong> If you're seeking a specific game or team, use our website's search function to quickly locate streams.</li> 
+            </ol>
+            <p> Remember to check our links regularly! We provide frequent updates, ensuring access to reliable, free NFL game streams. </p>
+
+            <h3>Where Can I Find More NFLbite Streams? </h3>
+            <p> In addition to using our official sites, many fans turn to resources like Reddit for NFL game streams. However, NFLbite remains the primary source for access to a wide variety of streams with reliable, high-quality connections! 
+            </p>
+
+            <h2>Staying Up to Date with the Latest NFLbite</h2>
+            <p> NFLbite is constantly expanding and improving. Make sure to visit us frequently, check for updates on the latest NFL streams, and bookmark our links!
+            </p>
+
+            <h3>The NFL Bite Community</h3>
+            <p> Join our vibrant community of NFL fans! We offer a forum for passionate supporters to discuss the latest games, debate strategies, and share the excitement of the season.
+            </p>
+
+            <h3>Looking for an Alternative to Free NFL Streams?</h3>
+            <p> While NFLbite is a great option, many users find value in using dedicated subscription services. You can try ESPN+, fuboTV, or others for guaranteed, high-quality streaming. 
+            </p>
+            <h3>Want to Watch on Your Phone or Tablet? </h3>
+            <p> NFLbite is compatible with all major mobile devices. Watch the game you love anytime, anywhere. Simply open our site on your smartphone or tablet browser and browse available streams. </p>
+           
+            <h2>What are NFLbite's Alternatives</h2>
+            <p> While NFLbite remains your leading choice for free NFL streams, if you seek more premium alternatives, explore reputable subscription-based streaming platforms! Sites such as ESPN+, fuboTV, or others can provide high-quality, legally sourced streams with guaranteed performance. 
+            </p>
+
+
+            <h3>Explore the World of Free NFL Streaming </h3>
+            <p>  Looking for a comprehensive guide to finding reliable free NFL streams? Explore websites such as  reddit nfl streams,  reddit nfl streams free, nfl streams reddit, or nfl streams reddit free  for tips and tricks. But remember to always prioritize reputable and secure platforms. </p>
+            <p> Join the NFL fandom and embrace the ultimate viewing experience with NFLbite!·</p> 
+
+            <h2>Additional Considerations:</h2>
+                <ul>
+                    <li> <strong>Safety:</strong>  While we make every effort to provide the best streams,  exercise caution when using third-party streaming services.</li>
+                    <li> <strong>Legality:</strong> Always remember that accessing copyrighted content illegally may have legal ramifications. 
+                </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+ <b:section class='sidebar' id='sidebar_bottom' name='Sidebar (Bottom)'/>
+ <script src='https://korbegy.github.io/streameast/js/script2.js'></script>
+<script src='https://korbegy.github.io/streameast/js/365scores2.js'></script>
+  </body>
+</html>
